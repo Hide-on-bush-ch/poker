@@ -1,0 +1,108 @@
+.pokerBox {
+  width: 200px;
+  height: 300px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: -220px;
+  background-color: #fff;
+}
+
+.pokerValue {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  position: absolute;
+}
+
+.pokerValue1 {
+  left: 20px;
+  top: 20px;
+}
+
+.pokerValue2 {
+  left: 130px;
+  top: 230px;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  line-height: 50px;
+}
+.text-joker {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: bolder;
+}
+
+.pokerSuit {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.suit-center {
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.suit {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.joker {
+  width: 30px;
+  font-size: 28px;
+  word-break: break-all;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.box > div:first-of-type {
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#container {
+  position: relative;
+}
+
+.end {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-align: center;
+  display: none;
+  z-index: 10;
+}
+
+.title {
+  width: 100%;
+  line-height: 200px;
+  color: gold;
+  font-weight: 900;
+  font-size: 36px;
+}
